@@ -1,0 +1,212 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  height: 40px;
+}
+
+.navbar {
+  background: #121212;
+}
+
+.navbar-collapse a:hover{
+	
+  border-radius: 20px;
+	background: rgba(86, 143, 219,0.5);
+}
+
+.carousel-item{
+  height: 100vh;
+  min-height: 300px;
+}
+.carousel-caption{
+  bottom: 220px;
+  z-index: 2;
+}
+.carousel-caption h5{
+  font-size:45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+
+}
+.carousel-caption botton{
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.carousel-inner::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.w-100{
+  height: 100vh;
+}
+
+.modal {
+  width: 100%;
+}
+
+.about {
+  background: #121212;
+}
+.about h2 {
+  margin: 1em;
+  color: #106eea;
+  font-size: 40px;
+  font-weight: bold;
+}
+.about h3 {
+  margin: 1em;
+  color: #fff;
+}
+
+
+.about img {
+  height: 300px;
+  width: 450px;
+
+  
+}
+
+
+.about .desc p {
+  color: #fff;
+}
+
+
+
+.desc p {
+  margin-top: 20px;
+  color: #ffff  ;
+  letter-spacing: 2px;
+}
+
+.team {
+  background: #121212;
+}
+.team h2 {
+  color: #106eea;
+  
+}
+
+.team img {
+  width: 220px;
+  height: 220px;
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 4px solid #106eea;
+  
+}
+
+.des {
+  color: #fff;
+  font-weight: bold;
+  margin-top: 10px;
+  letter-spacing: 2px;
+ 
+}
+
+
+.section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.bg-color{
+  background-color: #106eea;
+}
+.sub-heading span{
+  color: #106eea;
+  font-weight: 600;
+}
+.sub-heading h2{
+  font-weight: 700;
+
+}
+.service-box{
+  padding: 20px;
+  background-color: #fff;
+  transition: .4s;
+  transform: translateY(0);
+  cursor: pointer;
+  border-radius: 10px;
+}
+.service-content h3{
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(58, 58, 58);
+}
+.service-box:hover{
+  box-shadow: 0 0 30px #eee;
+  transform: translateY(-.5rem);
+}
+.service-content h3:hover{
+  color: #106eea;
+}
+
+
+footer {
+  background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(../img/pattern.jpg), #082032;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+footer .footer-top {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+footer .navbar-brand {
+  color: #fff;
+}
+
+footer p {
+  color: #ADB3B9;
+}
+
+footer .social-icons a {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.tombol {
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+  .carousel-caption{
+    bottom: 250px;
+  }
+  .carousel-caption h5{
+    font-size: 17px;
+
+  }
+  .carousel-caption a{
+    padding: 10px 15px;
+  }
+  .carousel-caption button{
+    width: 50%;
+    line-height: 1.6;
+    font-size: 12px;
+  }
+}

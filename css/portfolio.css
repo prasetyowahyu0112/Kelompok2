@@ -1,0 +1,156 @@
+.logo {
+    height: 40px;
+}
+
+.navbar {
+    background: #121212;
+}
+
+.navbar-collapse a:hover {
+    background: rgba(86, 143, 219, 0.5);
+    border-radius: 20px;
+}
+
+.banner {
+    background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.5)), url(../img/bannerporto.jpg), #082032;
+    background-size: cover;
+    color: #ffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 600px;
+    
+}
+
+.banner .text-banner h4{
+    margin-top: 130px;
+    text-align: left;
+    letter-spacing: 3px;
+    font-size: 65px;
+}
+
+.banner .text-banner span {
+    color: #FFDD0A;
+}
+
+.portfolio {
+    background: #121212;
+  }
+  
+  .portfolio h1 {
+    color: #FFDD0A;
+    align-items: center;
+   
+   
+  }
+  .portfolio .card p{
+    font-size: 14px;
+    text-align:justify ;
+  }
+
+
+#milestone {
+    background:  #F0EBCE;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#milestone h3{
+    font-size: 44px;
+    color: black;
+}
+#milestone h3 span{
+    font-size: 44px;
+    color: #FFDD0A;
+}
+
+#milestone img {
+    width: 150px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    margin-top: 100px;
+    background: #1c2c5d;
+    
+}
+
+.testimonial h5 {
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+    
+}
+
+.testimonial figure img {
+    width: 150px;
+    height: 150px;
+    margin: 60px 12px 10px;
+    opacity: 0.5;
+}
+
+.testimonial figure img.utama {
+    width: 200px;
+    height: 200px;
+    margin-top: 33px;
+    opacity: 1;
+    border: 3px solid #106eea;
+}
+
+.testimonial figure h5 {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    color: #fff;
+
+}
+
+.testimonial figure p {
+    font-size: 12px;
+    font-style: normal;
+    color: #acacac;
+    margin-top: -5px;
+
+}
+
+.testimonial figcaption {
+    text-align: center;
+}
+
+
+footer {
+    background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(../img/pattern.jpg), #082032;;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer .footer-top {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+footer .navbar-brand {
+    color: #fff;
+}
+
+footer p {
+    color: #ADB3B9;
+}
+
+footer .social-icons a {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
